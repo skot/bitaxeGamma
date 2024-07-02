@@ -59,7 +59,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|90654500|77715000|8d046e13-7e2d-4ff0-9559-2cfcd77fe3ee|85b27beb-a0d4-4c54-b7d2-67e9b6d6a80d",
+        "clearance|90724500|77715000|185b5380-0929-49b1-8a95-d46cd9195d86|85b27beb-a0d4-4c54-b7d2-67e9b6d6a80d",
+        "copper_sliver|106861292|83945279|00000000-0000-0000-0000-000000000000|B.Cu",
+        "footprint_type_mismatch|80865000|83260000|5f5c86f5-95cd-4905-bd18-164d92426b99|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -557,7 +562,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bitaxeSupra.kicad_pro",
+    "filename": "bitaxeGamma.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -600,7 +605,7 @@
       "plot": "Manufacturing Files/gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "bitaxeSupra.step",
+      "step": "bitaxeGamma.step",
       "svg": "",
       "vrml": ""
     },
@@ -771,7 +776,7 @@
     ],
     [
       "4cf9c075-d009-4c35-9949-adda70ae20c7",
-      "BM1368"
+      "BM1370"
     ],
     [
       "8e8832ea-6bf1-49d2-b3a5-32a207f555d2",

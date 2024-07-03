@@ -5199,7 +5199,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1782-2-ND"
+		(property "DK" "1276-1782-1-ND"
 			(at 224.79 68.58 0)
 			(effects
 				(font
@@ -5286,7 +5286,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1782-2-ND"
+		(property "DK" "1276-1782-1-ND"
 			(at 214.63 60.96 0)
 			(effects
 				(font
@@ -6182,7 +6182,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1782-2-ND"
+		(property "DK" "1276-1782-1-ND"
 			(at 234.95 60.96 0)
 			(effects
 				(font
@@ -7380,7 +7380,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1782-2-ND"
+		(property "DK" "1276-1782-1-ND"
 			(at 204.47 68.58 0)
 			(effects
 				(font

@@ -1,34 +1,32 @@
 ```
 Open Source is Intrinsic to Bitcoin
 ```
-# The bitaxeSupra
-bitaxe is a fully open source hardware Bitcoin ASIC miner. Supra is the 4th major revision of the bitaxe that now includes the BM1368 ASIC from the Antminer S21
+# The bitaxeGamma
+bitaxe is a fully open source hardware Bitcoin ASIC miner. Supra is the 5th major revision of the bitaxe that now includes the BM1370 ASIC from the Antminer S21 Pro
 
-![bitaxeUltra assembled](doc/supra_render.png)
+![bitaxeUltra assembled](doc/render.png)
 
 ## Goals
 - **Standalone**: can mine directly to your pool over WiFi. No External computer needed.
 - **Embedded**: low cost, low maintenance, high availability, high reliability, low power.
-- **ASIC**: based on the very, very efficient BM1366 from Bitmain.
+- **ASIC**: based on the very, very efficient BM1370 from Bitmain.
 - **Versatile**: solo/pool mining, autotune power/heat/efficiency.
 - **Open Source**: All design files are provided.
 
 ## Features
 - **ESP32-S3-WROOM-1** wifi microcontroller on board
-- **TI TPS40305** buck regulator steps down the 5V input to power the BM1366
-- **Maxim DS4432U+** current DAC digitally adjusts the BM1368 core voltage from 0.04V to 2.4V
-- **TI INA260** power meter measures the input voltage and current of the miner
+- **TI TPS546D24** buck regulator steps down the 5V input to power the BM1370
 - **Microchip EMC2101** PWM controls the fan and monitors tach output. BM1366 doesn't support die temp, but we have it placed super close to the ASIC so we can use the internal temp feature.
 - 0.91" **SSD1306 OLED** I2C Display Module 
 
-## BM1368
-- The BM1368 is a undocumented SHA256 mining ASIC from Bitmain. It's used in the Antminer S21
-- Bitmain claims the BM1368 has 17.5 J/TH efficiency
-- The BM1368 is brand new and isn't available anywhere yet.
-- The BM1368 has a different footprint and pinout from the BM1366, BM1397 and BM1387 in previous bitaxe.
+## BM1370
+- The BM1370 is a undocumented SHA256 mining ASIC from Bitmain. It's used in the Antminer S21 Pro
+- Bitmain claims the BM1370 has 17.5 J/TH efficiency
+- The BM1370 is brand new and isn't available anywhere yet.
+- The BM1370 has a different footprint and pinout from the BM1368, BM1366, BM1397 and BM1387 in previous bitaxe.
 
 ## Current Status
-- Bitaxe Supra 400 parts and PCBs has been ordered, but nothing has been verified
+- Bitaxe Supra 600x parts and PCBs has been ordered, but nothing has been verified
 - Be sure to check the [issues](https://github.com/skot/bitaxe/issues) for known bugs, reworks and errata.
 - This is an _advanced_ build! You can do it, but if you're not looking for a project, it might be best to buy one pre-assembled from one of the many sellers.
 

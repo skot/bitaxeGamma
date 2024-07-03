@@ -38,7 +38,7 @@ bitaxe is a fully open source hardware Bitcoin ASIC miner. Supra is the 5th majo
 - [40x40mm heatsink and 5V fan](https://www.aliexpress.com/item/2251832861666365.html) from a random AliExpress seller. The fans are crap, but the heatsinks are good. **make sure** to use a good quality thermal compound between the heatsink and ASIC!
 - Upgrade your fan with the [Noctua NF-A4x10](https://noctua.at/en/nf-a4x10-5v-pwm) 5V 4-Pin fan for a much more pleasant experience.
 - Supports 0.91" SSD1306-based I2C OLED Module. [Example Amazon seller](https://www.amazon.com/gp/product/B08ZY4YBHL)
-- [KiCad 7](https://www.kicad.org) design files
+- [KiCad 8](https://www.kicad.org) design files
 
 ## Software
 - The [ESP-Miner](https://github.com/skot/ESP-Miner) has not yet been modified to support the BM1368. Hopefully soon!

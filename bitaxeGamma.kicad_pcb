@@ -307,7 +307,7 @@
 				)
 			)
 		)
-		(property "DK" "1276-1782-2-ND"
+		(property "DK" "1276-1782-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5961,7 +5961,7 @@
 				)
 			)
 		)
-		(property "DK" "1276-1782-2-ND"
+		(property "DK" "1276-1782-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8810,15 +8810,15 @@
 			)
 		)
 	)
-	(footprint "bitaxe:O 25,0-JO32-B-1V3-1-T1-LF"
+	(footprint "bitaxe:SMD3225-4P"
 		(layer "F.Cu")
 		(uuid "43d231be-1923-4934-8aa2-32ab17d1e31f")
 		(at 114.73 125.22 90)
 		(property "Reference" "U7"
-			(at 2.62 0.11 0)
+			(at -0.03 -2.43 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "ad46b8cf-b3dd-4fb8-b8df-265f096ea5ce")
+			(uuid "9ce5b7db-8414-480e-a9d7-ed88c651066e")
 			(effects
 				(font
 					(size 1 1)
@@ -8830,7 +8830,7 @@
 			(at 0.65 -4.29 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "05b0f76f-e453-4dd8-a9d9-187cb4f130d5")
+			(uuid "3ef3a871-b4eb-46fe-b2a2-c4343ab95953")
 			(effects
 				(font
 					(size 1 1)
@@ -8838,12 +8838,12 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:O 25,0-JO32-B-1V3-1-T1-LF"
+		(property "Footprint" "bitaxe:SMD3225-4P"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "507da83a-5777-4dd8-b86d-7d51cfc797ad")
+			(uuid "5094ff91-d66e-4ce3-911d-0a602a9444b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8855,7 +8855,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2db03cc3-cfe9-4d83-96c5-6f8fba90a168")
+			(uuid "93c6c0ed-4c84-48f7-b3a8-484e07fbc0ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,7 +8867,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cbad2a4d-6f78-4d89-9680-51b5dce5b08a")
+			(uuid "3ad8c4f3-e55f-4ac2-bddb-2e2a7ce82a2b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8924,7 +8924,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "32f012b6-4890-4859-9b4f-605e3348dfd5")
+			(uuid "9480ed1e-03af-4131-a679-d784d739a8ca")
 		)
 		(fp_circle
 			(center -1.76 2.01)
@@ -8935,13 +8935,13 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "1cc6fcf6-d60d-44aa-b177-684bc6d7799d")
+			(uuid "033c508b-efac-4c5a-92dc-f3c14dcaa765")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 5.36 -2.32 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "0a92a13a-c91f-4698-bc8b-33d95ed8838e")
+			(uuid "bc0452d1-900e-40c1-91db-e96cbf17ec39")
 			(effects
 				(font
 					(size 1 1)
@@ -8956,7 +8956,7 @@
 			(net 83 "/BM1370/1V2")
 			(pinfunction "EN")
 			(pintype "bidirectional")
-			(uuid "77621dbf-ff34-4d78-b0f7-130a404ff995")
+			(uuid "7f3abf2c-a1ef-4c6d-b60a-118308d7a6ca")
 		)
 		(pad "2" smd rect
 			(at 1.15 0.95 90)
@@ -8965,7 +8965,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "bidirectional")
-			(uuid "bfe724e2-f775-4ad3-a03d-ffa58236ef24")
+			(uuid "242aeb71-ca63-4bcf-baf3-a1f4aba74383")
 		)
 		(pad "3" smd rect
 			(at 1.15 -0.95 90)
@@ -8974,7 +8974,7 @@
 			(net 94 "/BM1370/CLKI")
 			(pinfunction "OUT")
 			(pintype "bidirectional")
-			(uuid "1df7cbef-ed52-4b11-ba2f-a96a62972735")
+			(uuid "92579bd3-2050-4d93-aed5-dbcf8cb3b5d3")
 		)
 		(pad "4" smd rect
 			(at -1.15 -0.95 90)
@@ -8983,7 +8983,7 @@
 			(net 83 "/BM1370/1V2")
 			(pinfunction "VIN")
 			(pintype "bidirectional")
-			(uuid "150cef55-9795-4393-8947-4aebf1f4a77e")
+			(uuid "8618c246-02ae-4bc8-b499-7e5a57d98f9f")
 		)
 		(model "${KIPRJMOD}/3d/oscillator3.2x2.5.step"
 			(offset
@@ -11110,7 +11110,7 @@
 				)
 			)
 		)
-		(property "DK" "1276-1782-2-ND"
+		(property "DK" "1276-1782-1-ND"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -14795,7 +14795,7 @@
 				)
 			)
 		)
-		(property "DK" "1276-1782-2-ND"
+		(property "DK" "1276-1782-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19180,7 +19180,7 @@
 				)
 			)
 		)
-		(property "DK" "1276-1782-2-ND"
+		(property "DK" "1276-1782-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

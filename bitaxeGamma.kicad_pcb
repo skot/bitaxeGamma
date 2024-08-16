@@ -8815,7 +8815,7 @@
 		(uuid "43d231be-1923-4934-8aa2-32ab17d1e31f")
 		(at 114.73 125.22 90)
 		(property "Reference" "U7"
-			(at -0.03 -2.43 90)
+			(at 2.57 0.1 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9ce5b7db-8414-480e-a9d7-ed88c651066e")
@@ -32596,7 +32596,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "600x"
+	(gr_text "600"
 		(at 105.83 84.94 0)
 		(layer "B.SilkS")
 		(uuid "8b72db2e-28e4-4a0c-a797-b92f7ffd091d")

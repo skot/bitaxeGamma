@@ -16,8 +16,8 @@ bitaxe is a fully open source Bitcoin ASIC miner aimed at decentralizing mining.
 ## ASIC
 At the heart of the bitaxeGamma is a BM1370 Bitcoin mining ASIC from the Antminer S21 Pro from Bitmain. It's not open source.
 
-- Bitmain claims the BM1370 has 17.5 J/TH efficiency. We can get pretty close to that with the BitaxeGamma
-- The Antminer S21 Pro has a nominal hashrate of 234 TH/s. There are 3 hashboards with 65 chips each, for a total of 168 chips. The bitaxeGamma has a single one of these chips. That means we should get about 1.2 TH/s per bitaxeGamma. Initial testing looks good!
+- Bitmain claims the BM1370 has 15 J/TH efficiency. We can get pretty close to that with the BitaxeGamma
+- The Antminer S21 Pro has a nominal hashrate of 234 TH/s. There are 3 hashboards with 65 chips each, for a total of 168 chips. The bitaxeGamma has a single one of these chips. That means _about_ 1.2 TH/s per bitaxeGamma. Initial testing looks good!
 - The BM1370 is brand new and isn't available individually yet. The best place to get these chips is right out of a S21 Pro.
 - The BM1370 has a different footprint and pinout from the BM1368, BM1366, BM1397 and BM1387 in previous bitaxe.
 

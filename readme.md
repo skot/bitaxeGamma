@@ -25,7 +25,7 @@ At the heart of the bitaxeGamma is a BM1370 Bitcoin mining ASIC from the Antmine
 - Prototype BitaxeGamma 600x have been built and are hashing! There might still be HW issues.
 - initial BM1370 firmware support has been added to [esp-miner](https://github.com/skot/esp-miner) This still needs some work.
 - Be sure to check the [HW issues](https://github.com/skot/bitaxe/issues) for known bugs, reworks and errata.
-- This is an _advanced_ build! You can do it, but if you're not looking for a project, it might be best to buy one pre-assembled from one of the many sellers. Check [Skot's method](assembly.md) of hand assembling PCBs.
+- This is an _advanced_ build! You can do it, but if you're not looking for a project, it might be best to buy one pre-assembled from one of the [many sellers](https://bitaxe.org/legit.html). Check [Skot's method](assembly.md) of hand assembling PCBs.
 
 ## PCB Hardware
 This repo contains all of the design files for the PCB. [KiCAD](https://www.kicad.com) software is used. There is a BOM file for all of the components that get soldered to the PCB. 

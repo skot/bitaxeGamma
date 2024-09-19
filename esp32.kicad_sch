@@ -4634,7 +4634,7 @@
 		(at 196.85 32.385 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5303da4c-df6c-44f9-bc9e-5134047f46d1")
@@ -4675,24 +4675,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "S5596-ND"
-			(at 196.85 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "NPTC041KFXC-RC"
 			(at 196.85 32.385 0)
 			(effects
 				(font

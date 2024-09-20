@@ -47,7 +47,7 @@ There are a few other hardware components that are needed for a complete bitaxe.
 - **Thermal compound**
 	- Use a good quality thermal compound between the heatsink and ASIC. Kryonaut 
 - **Display**
-	- Supports 0.91" SSD1306-based I2C OLED Module. [Example Amazon seller](https://www.amazon.com/gp/product/B08ZY4YBHL)
+	- Supports 0.91" SSD1306-based I2C OLED Module. [Example Amazon seller](https://www.amazon.com/gp/product/B08ZY4YBHL). Make sure to get the male pins to interface with the Bitaxe PCB. 
 - **Power Supply**
 	- **5V DC Only!** Anything else will damage the Bitaxe. Be careful and double-check your power supply is 5V. Many other voltage power supplies use the same connector.
 	- [30W 5VDC Power supply](https://www.amazon.com/MTDZKJG-100-240V-Converter-Transformers-5-5x2-5mm/dp/B0CJHKS28K). The power supply needs to supply 3A (15W) and not drop below 5V. Often times you have to use a power supply rated for 25-30W to get this!

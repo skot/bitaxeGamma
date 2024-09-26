@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "bitaxeGamma")
-		(date "2024-08-16")
-		(rev "600")
+		(date "2024-09-26")
+		(rev "602")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2171,6 +2171,12 @@
 		(uuid "7a504686-6647-4186-8377-7bccbbf8fb73")
 	)
 	(junction
+		(at 198.12 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c03678c-8fba-417b-899f-0df1be6c43f7")
+	)
+	(junction
 		(at 198.12 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2217,12 +2223,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ddbe32e-08bd-4f23-b667-0cb172b76a01")
-	)
-	(junction
-		(at 193.04 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3390fde-f615-43e3-a6f9-0f63373d1296")
 	)
 	(junction
 		(at 140.97 85.09)
@@ -2668,16 +2668,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 59.69) (xy 193.04 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e4748c9-d907-4ba9-ae9d-50c208b1a4b6")
-	)
-	(wire
-		(pts
 			(xy 242.57 43.18) (xy 242.57 59.69)
 		)
 		(stroke
@@ -2725,6 +2715,16 @@
 			(type default)
 		)
 		(uuid "484f2631-4e4e-4c3f-b544-45d22ba6d8dd")
+	)
+	(wire
+		(pts
+			(xy 204.47 46.99) (xy 198.12 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ebee1a-4561-48fc-8425-96f4439e9e31")
 	)
 	(wire
 		(pts
@@ -3158,16 +3158,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 46.99) (xy 193.04 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "873c2262-a407-4f3a-b57e-32fadd189cc6")
-	)
-	(wire
-		(pts
 			(xy 224.79 46.99) (xy 229.87 46.99)
 		)
 		(stroke
@@ -3295,16 +3285,6 @@
 			(type default)
 		)
 		(uuid "9932f316-c560-45be-8a86-f2a8df77c804")
-	)
-	(wire
-		(pts
-			(xy 204.47 46.99) (xy 193.04 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "995ef8f0-68f8-48e2-9b51-fd5943f6d5c5")
 	)
 	(wire
 		(pts
@@ -3578,7 +3558,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 59.69) (xy 193.04 59.69)
+			(xy 173.99 59.69) (xy 198.12 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3738,6 +3718,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 46.99) (xy 198.12 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a0a70e-768f-4af6-84f0-dd60e4dad717")
+	)
+	(wire
+		(pts
 			(xy 170.18 146.05) (xy 180.34 146.05)
 		)
 		(stroke
@@ -3775,16 +3765,6 @@
 			(type default)
 		)
 		(uuid "d374720d-40ab-417b-ae11-e3ffa05829e1")
-	)
-	(wire
-		(pts
-			(xy 198.12 59.69) (xy 193.04 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d41aaee6-d388-414f-86b1-ccaae3573cc9")
 	)
 	(wire
 		(pts
@@ -4306,17 +4286,6 @@
 		)
 		(uuid "731b4c1a-0f5b-4915-b32c-751614df2554")
 	)
-	(label "GND"
-		(at 229.87 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "742db54a-1f31-4f9c-a6a3-091da7fd5ba6")
-	)
 	(label "PIN_MODE"
 		(at 215.9 121.92 0)
 		(fields_autoplaced yes)
@@ -4415,6 +4384,17 @@
 			(justify left bottom)
 		)
 		(uuid "9a9e1ae1-257a-44c5-bab4-bfda4733587a")
+	)
+	(label "1V2"
+		(at 229.87 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d067fa4-4dae-404b-9877-706fc1f50ffa")
 	)
 	(label "VDD3_1"
 		(at 171.45 99.06 180)
@@ -5973,91 +5953,6 @@
 			(project "bitaxeGamma"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
 					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 193.04 53.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d65666c-fcb2-440c-b935-8a24edd7ab29")
-		(property "Reference" "R21"
-			(at 188.595 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20k"
-			(at 188.595 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 192.024 53.086 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-20.0KLRCT-ND"
-			(at 193.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-0720KL"
-			(at 193.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a21c4c0-df9b-4247-b8e5-9155ffef7d57")
-		)
-		(pin "2"
-			(uuid "70c5798f-7c3e-420a-b183-ca1ea97e3253")
-		)
-		(instances
-			(project "bitaxeGamma"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "R21")
 					(unit 1)
 				)
 			)

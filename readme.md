@@ -43,10 +43,10 @@ There are a few other hardware components that are needed for a complete bitaxe.
 	- [40x40mm heatsink and 5V fan](https://www.aliexpress.com/item/2251832861666365.html) from a random AliExpress seller. The fans are crap, but the heatsinks are good.  
 - **Fan**
 	- You **must** have active cooling on the bitaxe. The heatsink alone is not enough.
-	- The Bitaxe has a connector for a 4pin, 5V PWM fan. 40mm square, 20mm thick fans work nicely with the suggested heatsink. Make sure to get a 5V fan! 12V will not work.
+	- The Bitaxe has a connector for a 4pin, 5V PWM fan. 40mm square, 20mm thick fans work nicely with the suggested heatsink. Make sure to get a 5V fan! 12V spin, but slowly overheating your Bitaxe..
 	- Upgrade your fan with the [Noctua NF-A4x10](https://noctua.at/en/nf-a4x10-5v-pwm) 5V 4-Pin fan for a much more pleasant experience.
 - **Thermal compound**
-	- Use a good quality thermal compound between the heatsink and ASIC. Kryonaut 
+	- Use a good quality thermal compound between the heatsink and ASIC. [Thermal Grizzly Kryonaut](https://www.amazon.com/Thermal-Grizzly-Kryonaut-Grease-Paste/dp/B011F7W3LU) has been known to work well.  
 - **Display**
 	- Supports 0.91" SSD1306-based I2C OLED Module. [Example Amazon seller](https://www.amazon.com/gp/product/B08ZY4YBHL). Make sure to get the male pins to interface with the Bitaxe PCB. 
 - **Power Supply**

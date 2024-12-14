@@ -410,88 +410,6 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -594,6 +512,414 @@
 				)
 			)
 		)
+		(symbol "MountingHole_Pad_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_1_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MountingHole_Pad_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_2_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_2_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MountingHole_Pad_3"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_3_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_3_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MountingHole_Pad_4"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_4_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_4_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "bitaxe:polarity"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -666,6 +992,12 @@
 		(uuid "55033ea4-52b5-46f6-b909-193ee90f64f8")
 	)
 	(junction
+		(at 63.5 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c0eb059-2e69-4f4e-a037-32cfe01c5f39")
+	)
+	(junction
 		(at 35.56 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -694,6 +1026,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfd9251c-91ec-4cdf-8988-2e393b69a6c3")
+	)
+	(junction
+		(at 63.5 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e22bc4ca-76d7-4a4d-b3f4-a76b4ea0c510")
+	)
+	(junction
+		(at 63.5 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec5ed055-1757-4967-a7c4-c3041c0c177a")
 	)
 	(junction
 		(at 35.56 163.83)
@@ -763,6 +1107,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 167.64) (xy 63.5 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22db1dd5-529b-465c-b429-faa1b28b7ec3")
+	)
+	(wire
+		(pts
 			(xy 147.32 74.93) (xy 147.32 69.85)
 		)
 		(stroke
@@ -793,6 +1147,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 173.99) (xy 63.5 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27dd2d22-d3d8-4914-9d58-2b3358a0d7d2")
+	)
+	(wire
+		(pts
 			(xy 72.39 43.18) (xy 80.01 43.18)
 		)
 		(stroke
@@ -813,6 +1177,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 186.69) (xy 63.5 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd162f7-bf80-4ac1-98ef-9e1ff352bd0a")
+	)
+	(wire
+		(pts
 			(xy 167.64 110.49) (xy 175.26 110.49)
 		)
 		(stroke
@@ -820,6 +1194,16 @@
 			(type default)
 		)
 		(uuid "51ba9129-b1a0-4373-8692-8d984b02e6d9")
+	)
+	(wire
+		(pts
+			(xy 63.5 180.34) (xy 63.5 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65bec79d-0a17-4072-b70b-797026da404e")
 	)
 	(wire
 		(pts
@@ -1113,6 +1497,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 193.04) (xy 63.5 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63402fd-54b6-4258-9f2c-c1cbfe37a915")
+	)
+	(wire
+		(pts
 			(xy 166.37 86.36) (xy 175.26 86.36)
 		)
 		(stroke
@@ -1279,7 +1673,7 @@
 		(uuid "64bb4b1d-9141-410f-bc37-011ad71f877f")
 	)
 	(label "GND"
-		(at 35.56 187.96 0)
+		(at 48.26 193.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1799,17 +2193,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 66.04 189.23 0)
+		(lib_name "MountingHole_Pad_4")
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 66.04 186.69 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5313c0b0-9b02-4f3c-a3dd-576f0907eeff")
 		(property "Reference" "H8"
-			(at 68.58 187.9599 0)
+			(at 69.85 185.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +2213,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 68.58 190.4999 0)
+			(at 69.85 187.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1826,8 +2221,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:HeatsinkMountingHole_3.5mm"
-			(at 66.04 189.23 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 66.04 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,7 +2231,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 189.23 0)
+			(at 66.04 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,14 +2239,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 66.04 189.23 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 66.04 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "9ccd4823-f5f8-41b4-be8c-f6336502900f")
 		)
 		(instances
 			(project "bitaxeGamma"
@@ -2028,17 +2426,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 66.04 181.61 0)
+		(lib_name "MountingHole_Pad_3")
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 66.04 180.34 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "851a53f9-f1ca-4ce1-af0f-02bbfb2e817b")
 		(property "Reference" "H7"
-			(at 68.58 180.3399 0)
+			(at 69.85 179.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,7 +2446,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 68.58 182.8799 0)
+			(at 69.85 181.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,8 +2454,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm"
-			(at 66.04 181.61 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 66.04 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2065,7 +2464,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 181.61 0)
+			(at 66.04 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,14 +2472,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 66.04 181.61 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 66.04 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "3da10e5f-1bb2-4039-b4c3-be76f50c8934")
 		)
 		(instances
 			(project "bitaxeGamma"
@@ -2284,17 +2686,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 66.04 174.625 0)
+		(lib_name "MountingHole_Pad_2")
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 66.04 173.99 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab5bb22a-5663-430c-9f9f-42a0a4a983d1")
 		(property "Reference" "H6"
-			(at 68.58 173.3549 0)
+			(at 69.85 172.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,7 +2706,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 68.58 175.8949 0)
+			(at 69.85 175.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,8 +2714,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:HeatsinkMountingHole_3mm"
-			(at 66.04 174.625 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 66.04 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2321,7 +2724,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 174.625 0)
+			(at 66.04 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,14 +2732,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 66.04 174.625 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 66.04 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "949e1fdb-0221-4171-8fdf-b1855eb5658d")
 		)
 		(instances
 			(project "bitaxeGamma"
@@ -2412,17 +2818,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 66.04 167.005 0)
+		(lib_name "MountingHole_Pad_1")
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 66.04 167.64 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bff2ac6a-2ec4-47c3-a5eb-4ce77d0e5ec2")
 		(property "Reference" "H5"
-			(at 68.58 165.7349 0)
+			(at 69.85 166.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +2838,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 68.58 168.2749 0)
+			(at 69.85 168.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,8 +2846,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:HeatsinkMountingHole_3mm"
-			(at 66.04 167.005 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 66.04 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +2856,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 167.005 0)
+			(at 66.04 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2457,14 +2864,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 66.04 167.005 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 66.04 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "b05ffb60-09c5-4815-a0f7-82e1dedca8e2")
 		)
 		(instances
 			(project "bitaxeGamma"

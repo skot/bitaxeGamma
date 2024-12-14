@@ -1826,7 +1826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+		(property "Footprint" "bitaxe:HeatsinkMountingHole_3.5mm"
 			(at 66.04 189.23 0)
 			(effects
 				(font
@@ -1988,7 +1988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+		(property "Footprint" "bitaxe:MountingHole_3mm_Pad_Via"
 			(at 38.1 154.94 0)
 			(effects
 				(font
@@ -2311,7 +2311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+		(property "Footprint" "bitaxe:HeatsinkMountingHole_3mm"
 			(at 66.04 174.625 0)
 			(effects
 				(font
@@ -2439,7 +2439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+		(property "Footprint" "bitaxe:HeatsinkMountingHole_3mm"
 			(at 66.04 167.005 0)
 			(effects
 				(font
@@ -2503,7 +2503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+		(property "Footprint" "bitaxe:MountingHole_3mm_Pad_Via"
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -2570,7 +2570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+		(property "Footprint" "bitaxe:MountingHole_3mm_Pad_Via"
 			(at 38.1 163.83 0)
 			(effects
 				(font
@@ -2637,7 +2637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+		(property "Footprint" "bitaxe:MountingHole_3mm_Pad_Via"
 			(at 38.1 179.07 0)
 			(effects
 				(font
@@ -2722,6 +2722,15 @@
 		)
 		(property "Description" ""
 			(at 77.47 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 0 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)

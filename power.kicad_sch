@@ -6356,6 +6356,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "P16200CT-ND"
+			(at 0 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "2R5TPE220MAFB"
+			(at 0 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f27be54-27cd-4374-ad90-af0cb6675d39")
 		)

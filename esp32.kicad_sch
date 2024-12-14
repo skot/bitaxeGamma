@@ -4683,6 +4683,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "S5596-ND"
+			(at 0 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "NPTC041KFXC-RC"
+			(at 0 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bea27d36-57fe-4540-8315-0a89ab2f9a0f")
 		)
@@ -5221,6 +5239,15 @@
 		)
 		(property "Description" ""
 			(at 66.04 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 0 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
